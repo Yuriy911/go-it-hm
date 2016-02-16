@@ -1,0 +1,30 @@
+body{
+	background: #eeeeee;
+}
+
+.big-box {
+	background: #ffffff;
+	width: 512px;
+	height: 750px;
+	margin: 0 420px 45px 420px;
+	padding: 50px 50px 50px 60px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .3)
+}
+.img{
+	text-align: center;
+}
+
+.box_1 {
+	border-bottom: 1px solid;
+}
+.box_2 {
+	border-bottom: 1px solid;
+}
+.box_3 {
+	border-bottom: 1px solid;
+}
+
+.line_1{
+	line-height: 0.3em;
+}
+
