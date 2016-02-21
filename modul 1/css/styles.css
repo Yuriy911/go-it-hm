@@ -6,7 +6,7 @@ body{
 	background: #ffffff;
 	width: 512px;
 	height: 750px;
-	margin: 0 420px 45px 420px;
+	margin: auto;
 	padding: 50px 50px 50px 60px;
 	box-shadow: 0 0 3px rgba(0, 0, 0, .3)
 }
@@ -22,9 +22,8 @@ body{
 }
 .box_3 {
 	border-bottom: 1px solid;
+	padding: 0 0 10px;
 }
-
-.line_1{
-	line-height: 0.3em;
+.p2{
+	line-height: 15px;
 }
-
