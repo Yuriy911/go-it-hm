@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneuecyr-roman-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-roman-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/helveticaneuecyr-roman-webfont.woff2') format('woff2'),
+    url('../fonts/helveticaneuecyr-roman-webfont.woff') format('woff'),
+    url('../fonts/helveticaneuecyr-roman-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneuecyr-bold-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/helveticaneuecyr-bold-webfont.woff2') format('woff2'),
+    url('../fonts/helveticaneuecyr-bold-webfont.woff') format('woff'),
+    url('../fonts/helveticaneuecyr-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body{
+    background: url(../img/background.jpg) no-repeat center center fixed;
+    background-size: 100%;
+    font-family: HelveticaNeue, sans-serif;
+    font: 14px/16px 'Helvetica Neue', Arial,sans-serif;
+}
+
+.wrapper{
+    height: 1060px;
+    margin: auto;
+}
+
+.clear_fix:after{
+    content: "";
+    display:block;
+    clear:both;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav_menu{
+    background: #074d8b;
+    height: 36px;
+
+}
+
+.nav_menu__item{
+    float:right;
+    height: 18px;
+    padding: 9px 20px;
+    text-align: center;
+}
+
+.nav_menu__link{
+    text-decoration: none;
+    color:#60b5ed;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.mini_2{
+    float: right;
+    font-size: 14px;
+    width: 160px;
+    margin: 2px auto 3px;
+    padding: 4px 0;
+    text-align: center;
+    line-height: 14px;
+    border-left: 1px solid #56a2dc;
+}
+
+.mini_1{
+    float: right;
+    padding: 9px 13px 11px;
+    margin-right: 20px;
+    font-size: 14px;
+    line-height: 14px;
+    border: 1px solid #489bd5;
+    background: linear-gradient(#51b1dc, #2e7ac4);
+    color: #fff;
+}
+
+.mini_1__link, .mini_2__link{
+    color: #fff;
+}
+
+.mini_2__img{
+    vertical-align: middle;
+    margin-right: 4px;
+}
+.mini_2__link{
+    text-decoration: none;
+}
+
+.nav_menu__item:hover{
+    background-color: #4eabda;
+    height: 36px;
+}
+
+.nav_menu__item:hover .nav_menu__link{
+    color:#fff;
+}
+
+.middle{
+    width: 555px;
+    height: 635px;
+    color: #ffffff;
+    margin: 250px auto;
+    background-color: rgba(0, 0, 0, 0.63);
+    text-align: center;
+    line-height: 55px;
+    font-size: 10px;
+
+}
+
+.Facebook{
+
+    width: 276px;
+    height: 35px;
+    border-style: hidden;
+    margin: 20px auto;
+}
+
+.OU{
+    width: 276px;
+    height: 60px;
+    margin: 1px auto 0;
+    position: relative;
+}
+.OU::before {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    background: #667;
+    box-shadow: 0 1px 0 #000;
+    width: 120px;
+    position: relative;
+    bottom: 5px;
+    right: 3px;
+}
+.OU:after {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    background: #667;
+    box-shadow: 0 1px 0 #000;
+    width: 120px;
+    position: relative;
+    bottom: 5px;
+    left: 3px;
+}
+
+.middle_text{
+    border-bottom: 1px solid #ffffff;
+}
+
+.middle_menu:focus{
+    background:linear-gradient(to top,rgba(27,79,129,1),rgba(29,73,115,1));
+    box-shadow: 10px 10px 10px #4683ad;
+    outline: none;
+}
+
+.input_1{
+    width: 275px;
+    height: 34px;
+    color: #ffffff;
+    background-color: #000;
+    border: 1px solid #000;
+    padding-left: 15px;
+}
+
+.input_1:focus{
+    background:linear-gradient(to top,rgba(27,79,129,1),rgba(29,73,115,1));
+    box-shadow: 0 0 15px #4683ad;
+    border: 1px solid #4683ad;
+    outline: none;
+}
+
+.check input {
+    vertical-align: middle;
+}
+
+.futer_middle_menu{
+    padding-bottom: 17px;
+}
+
+
+.menu__button{
+    background: linear-gradient(#4faedb, #2f7bc5);
+    border: 1px solid #55a1dc;
+    color: #fff;
+    height: 35px;
+    width: 150px;
+    border-radius: 3px;
+    text-align: center;
+
+}
+
+.menu__button:focus {
+    background: linear-gradient(to top,rgba(46,122,196,1),rgba(80,174,219,1));
+    border: 1px solid #55a1dc;
+    border-top:2px solid #54b5de;
+    color: #000;
+    height: 35px;
+    width: 150px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.futer_text{
+    line-height: 10px;
+}
