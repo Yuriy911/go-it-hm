@@ -1,0 +1,52 @@
+* {
+
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+}
+
+.wrapper{
+    margin: 0 auto;
+    padding: 0 auto;
+   /* background-color: #000;*/
+    width: 500px;
+    height: 590px;
+}
+table{
+    background-color: #000;
+}
+
+.td,th{
+    border: 2px solid #000;
+    margin: 0;
+    padding: 35px;
+}
+
+.th,td{
+    border: 2px solid #000;
+    margin: 0;
+    padding: 35px;
+}
+
+.box1{
+   background: #ffe85a;
+}
+
+.box2{
+    background: #ff6849;
+}
+
+.box3{
+    background: #343434;
+}
+
+.box4{
+    background: #05427d;
+}
+
+.box5{
+    background: #ffffff;
+}

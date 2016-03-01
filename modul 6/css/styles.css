@@ -72,6 +72,12 @@ body{
     padding-right: 9px;;
 }
 
+.registr{
+    padding: 0 15px 0 0;
+    color: #fff;
+    text-decoration: none;
+}
+
 .smol_sait{
     height: 20px;
     width: 75px;
@@ -131,6 +137,13 @@ nav{
     background: linear-gradient(to bottom,#25617b,#0c3357);
     border-radius: 18px;
 }
+
+.korzina{
+    text-decoration: none;
+    color: #8a9296;
+}
+
+
 
 .order{
     float: right;
